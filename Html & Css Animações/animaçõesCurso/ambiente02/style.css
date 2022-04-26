@@ -1,0 +1,33 @@
+body{
+    margin: 30px;
+}
+.box{
+    background-color: #157bad;
+    height: 300px;
+    width: 300px;
+  
+    transition-property: background-color, border-radius;
+    transition-duration: 1s, 0.5s;
+    /*transition-delay: 1s;*/
+    transition-timing-function: cubic-bezier(.15, .89, .85, .26)
+    
+}
+.box:hover{
+    background-color: #ec5840;
+    border-radius: 50%;
+    
+}
+h1{
+    animation: animate 1s ease-in-out forwards;
+}
+@keyframes animate{
+    0%{
+        transform: translateY(-300px);
+    }
+    50%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

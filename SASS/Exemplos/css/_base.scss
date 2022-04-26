@@ -1,0 +1,38 @@
+$text-color: rgb(221, 129, 0);
+$text-color-white: rgb(212, 212, 212);
+
+@mixin box-shadow($color) {
+  box-shadow: 5px 5px 2px -2px $color;
+}
+@mixin text-effect($val){
+    @if $val == danger {
+        color: red;
+    }@else if $val == alert{
+        color: yellow;
+    }@else{
+        color: black;
+    }
+}
+
+
+body{
+  background-color: #7159c1;
+  color: $text-color;
+}
+.container{
+  @include box-shadow(rgba(0,0,0,0.6));
+  width: 200px;
+  height: 200px;
+  background-color: $text-color-white;
+  $text-color: rgb(42, 3, 214);
+  color: white;
+  p{
+    @include box-shadow(rgba(0,0,0,0.6));
+    margin: 10px;
+    background-color: gray;
+    height: 100px;
+    width: 100px;
+    color: $text-color;
+    @include text-effect(n);
+  }
+}

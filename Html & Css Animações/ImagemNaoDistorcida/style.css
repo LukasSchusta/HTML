@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+    height: 4000px;
+}
+section img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+ul li{
+    list-style-type: none;
+}
+section span{
+    margin: 3px;
+    display: flex;
+    justify-content: right;
+    top: 0;
+    position: sticky;
+    
+}
+.party{
+    width: 300px;
+    text-align: right;
+    display: block;
+}
+.div1{
+    display: inline;
+    text-align: center;
+    border: 2px solid black;
+    margin-right: 2px;
+}
+.div2{
+    display: inline;
+    text-align: center;
+    border: 2px solid black;
+    
+    
+}

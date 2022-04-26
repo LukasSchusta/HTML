@@ -1,0 +1,36 @@
+body{
+    animation: gradient 10s ease alternate infinite;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) no-repeat;
+    background-size: 300% 300%;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100vh;
+    
+}
+h1{
+    animation: helloword 2s ease-in-out forwards;
+    font-size: 60pt;
+}
+@keyframes helloword {
+    0%{
+        transform: translateY(-800px);
+    }
+
+    70%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes gradient{
+    from{
+        background-position: 0 50%;
+    }
+    to{
+        background-position: 100% 50%;
+    }
+}

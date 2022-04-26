@@ -1,0 +1,22 @@
+body{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+.box{
+    outline: 5px solid red;
+}
+img{
+    /*
+    transform: translateX() //Desloca imagem para o lado, podendo ser eixo X ou Y, podendo usar apenas translate(X, Y)
+
+    transform: scaleX() // Aumenta o tamanho da imagem, no caso, será aumentado apenas no eixo X, também podendo ser usado apneas scale(X, Y)
+
+    transform: rotate() // Rotaciona a imagem, geralmente é usado a unidade "deg"
+
+    transform: skew() // Inclina a imagem, também sendo usado a unidade "deg"
+
+    */
+    transform: translate() scale() rotate();
+   
+}

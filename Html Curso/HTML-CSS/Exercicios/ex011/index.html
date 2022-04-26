@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HHTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    
+        <picture>
+            <source media="(max-width: 710px)" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width: 1020px)" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/foto-g.png" alt="">
+        </picture>
+
+        <h1>Reproduzindo Áudio</h1>
+        <p>Vamos aprender a reproduzir áudios em HTML5</p>
+        <audio preload="metadata" autoplay controls><!--preload="auto" carrega o site somente após carregar o audio, fazendo com que o site fique lento / Use metadata pois é melhor-->
+            <source src="media/ratinhoo.mp3" type="audio/mpeg">
+            <source src="media/ratinhoo.ogg" type="audio/ogg">
+            <source src="media/ratinhoo.wav" type="audio/wav">
+            <p>Infelizmente seu navegador não consegue reproduzir áudio <a href="media/ratinhoo.mp3">Clique aqui</a> para baixar o arquivo MP3<p>
+
+        </audio>
+
+
+</body>
+</html>

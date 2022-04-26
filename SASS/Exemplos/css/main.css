@@ -1,0 +1,25 @@
+body {
+  background-color: #7159c1;
+  color: #dd8100;
+}
+
+.container {
+  -webkit-box-shadow: 5px 5px 2px -2px rgba(0, 0, 0, 0.6);
+          box-shadow: 5px 5px 2px -2px rgba(0, 0, 0, 0.6);
+  width: 200px;
+  height: 200px;
+  background-color: #d4d4d4;
+  color: white;
+}
+
+.container p {
+  -webkit-box-shadow: 5px 5px 2px -2px rgba(0, 0, 0, 0.6);
+          box-shadow: 5px 5px 2px -2px rgba(0, 0, 0, 0.6);
+  margin: 10px;
+  background-color: gray;
+  height: 100px;
+  width: 100px;
+  color: #2a03d6;
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */

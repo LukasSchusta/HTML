@@ -1,0 +1,16 @@
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    
+}
+svg{
+    width: 200px;
+    animation: is-boucing 1s ease-in-out alternate infinite;
+}
+
+@keyframes is-boucing{
+    to{
+        transform: translateY(30px);
+    }
+}

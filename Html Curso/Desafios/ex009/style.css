@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(32, 32, 32);
+
+}
+.titulo{
+    text-align: center;
+    color: white;
+    font: normal 20px arial;
+}
+.imagens{
+    text-align: center;
+}
+.imagens2{
+    text-align: center;
+    
+}
+.curso{
+    font: normal 15px arial;
+}

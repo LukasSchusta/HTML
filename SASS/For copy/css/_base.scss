@@ -1,0 +1,5 @@
+$colors: (color1: blue, color2: red, color3: yellow);
+
+@each $key, $color in $colors{
+    .#{$color}-text {color: lighten($color, 10);}
+}

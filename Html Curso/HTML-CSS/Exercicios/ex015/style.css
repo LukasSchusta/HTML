@@ -1,0 +1,11 @@
+@charset "UTF-8";
+body {
+    background-color: gainsboro;
+    font-size: 20px;
+}
+    h1 {
+    color: rgb(0, 255, 21);
+}
+p {
+    text-align: justify;
+}

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACCI,AAAA,OAAO,CAAI;EACP,SAAS,EAAE,IAAS;CACvB;;AAFD,AAAA,OAAO,CAAI;EACP,SAAS,EAAE,IAAS;CACvB;;AAFD,AAAA,OAAO,CAAI;EACP,SAAS,EAAE,IAAS;CACvB;;AAFD,AAAA,OAAO,CAAI;EACP,SAAS,EAAE,IAAS;CACvB;;AAFD,AAAA,OAAO,CAAI;EACP,SAAS,EAAE,IAAS;CACvB",
+    "sources": [
+        "main.scss",
+        "_base.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
