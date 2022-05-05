@@ -1,5 +1,5 @@
-
-let count = 'pause';
+let cron
+let count = 'start';
 let minutos = document.getElementById('minutos-id')
 let segundos = document.getElementById('segundos-id')
 let text = document.getElementById('text-id')
@@ -8,6 +8,7 @@ let seg = Number(segundos.value)
 var tempo = 1000
 function cronometro(){
     if(count == 'start'){
+        console.log(seg);
         let img = document.getElementById('image-play-or-stop').src='images/pause.svg'
         count = 'pause'
         clearInterval(cron)
@@ -24,12 +25,10 @@ function cronometro(){
 }
 let count2 = 0
 function timer(){
-    console.log(min)
-    console.log(seg);
-    console.log(count2)
+    
     if(min == 0 && seg == 0){
         text.innerHTML = 'Finished'
-    } if(seg == 0 || count2 == 60 && min > 0){
+    }if(seg == 0 || count2 == 60 && min > 0){
         count2 = 0
         seg += 60
         if(min > 0){
